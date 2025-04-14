@@ -9,7 +9,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping(path = "api/user")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://frontspring.vercel.app")
 public class UserController {
 
     private final UserService userService;
