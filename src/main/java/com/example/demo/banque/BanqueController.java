@@ -8,7 +8,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("api/banque")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://frontspring.vercel.app")
 public class BanqueController {
     private final BanqueService banqueService;
 
